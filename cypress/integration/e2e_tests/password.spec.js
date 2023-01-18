@@ -3,7 +3,7 @@ describe('', () => {
 		cy.visit('http://zero.webappsecurity.com/index.html');
 	});
 
-	it('Should click sign in', () => {
+	it('Should click on the sign in button', () => {
 		cy.get('#signin_button').click();
   });
   
